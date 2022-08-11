@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!---- ========= CSS ========= -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!---==== Boxicons CSS =====-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Show.io</title>
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="logo.png" alt="logo" />
+          </span>
+
+          <div class="text header-text">
+            <span class="name">Show.io</span>
+          </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link home-link">
+              <a href="#home_section">
+                <i class="bx bx-home icon active"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+            <li class="nav-link link-home">
+              <a href="#">
+                <i class="bx bx-caret-right-circle icon"></i>
+                <span class="text nav-text">Start Presentation</span>
+              </a>
+            </li>
+
+            <div class="full-screen">
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-area icon"></i>
+                  <span class="text nav-text">Full Screen</span>
+                </a>
+              </li>
+            </div>
+            <li class="nav-link support-link">
+              <a href="#support_section">
+                <i class="bx bx-crown icon"></i>
+                <span class="text nav-text">Support me</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom-content">
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark Mode</span>
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="cover home" id="home_section">
+        <div class="content">
+          <div class="drag-area">
+            <i class="bx bx-cloud-upload upload-icon"></i>
+            <h2 class="drag-text">Drag & Drop to Upload</h2>
+            <span>OR</span>
+            <button>Browse File</button>
+          </div>
+        </div>
+      </section>
+      <section class="cover support" id="support_section">
+        <div class="content">
+          <h2>Support</h2>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
